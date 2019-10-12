@@ -1,0 +1,27 @@
+
+SQL*Plus: Release 12.1.0.2.0 Production on Sat Oct 12 08:07:25 2019
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+SQL> Connected.
+SQL>   2  
+Session altered.
+
+SQL>   2  
+Session altered.
+
+SQL> 
+ALTER SYSTEM KILL SESSION '206,64191' immediate -- process 71363
+/
+
+SQL>   2  
+Session altered.
+
+SQL>   2  
+Session altered.
+
+SQL> SQL> 
+SQL> ========== PROCESS ENDED ==========
+SQL> Disconnected from Oracle Database 12c EE High Perf Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Advanced Analytics and Real Application Testing options
